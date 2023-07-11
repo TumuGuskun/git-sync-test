@@ -2,5 +2,98 @@ version: 43.0.9
 pageUuid: c03ff49a-2015-11ee-8507-7387ad13d96a
 appTemplate:
   plugins:
-    ordered: []
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: OpenAPIQuery
+            resourceName: b17de62c-f185-4abb-9900-e6283d80fded
+            resourceDisplayName: maps
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - method: ''
+                - operationId: ''
+                - lastReceivedFromResourceAt: null
+                - queryDisabledMessage: ''
+                - servedFromCache: false
+                - server: ''
+                - offlineUserQueryInputs: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - path: ''
+                - playgroundQuerySaveId: latest
+                - workflowParams: null
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: false
+                - autoPaginate: false
+                - workflowRunId: null
+                - showFailureToaster: true
+                - query: ''
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: null
+                - error: null
+                - workflowRunBodyType: raw
+                - privateParams: []
+                - runWhenPageLoadsDelay: ''
+                - parameters: ''
+                - data: null
+                - specPathOverride: ''
+                - importedQueryInputs:
+                    ordered: []
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - requestSentTimestamp: null
+                - metadata: null
+                - workflowActionType: null
+                - requestBodyDynamicStates: ''
+                - queryRunTime: null
+                - changesetObject: ''
+                - requestBody: ''
+                - errorTransformer: >-
+                    // The variable 'data' allows you to reference the request's
+                    data in the transformer. 
+
+                    // example: return data.find(element => element.isError)
+
+                    return data.error
+                - specBasePath: ''
+                - finished: null
+                - confirmationMessage: null
+                - isFetching: false
+                - changeset: ''
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - resourceTypeOverride: null
+                - watchedParams: []
+                - serverVariables: ''
+                - enableErrorTransformer: false
+                - autoPaginateLimit: 500
+                - showLatestVersionUpdatedWarning: false
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - showUpdateSetValueDynamicallyToggle: true
+                - parameterDynamicStates: ''
+                - runWhenPageLoads: false
+                - transformer: |-
+                    // Query results are available as the `data` variable
+                    return formatDataAsArray(data)
+                - events: []
+                - queryTimeout: '10000'
+                - workflowId: null
+                - requireConfirmation: false
+                - queryFailureConditions: ''
+                - changesetIsObject: false
+                - enableCaching: false
+                - allowedGroups: []
+                - workflowBlockPluginId: null
+                - offlineQueryType: None
+                - queryThrottleTime: '750'
+                - updateSetValueDynamically: false
+                - notificationDuration: ''
+            createdAt: 2023-07-11T21:17:45.430Z
   version: 3.4.0
