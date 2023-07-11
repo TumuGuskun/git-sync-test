@@ -13,8 +13,8 @@ appTemplate:
             template:
               ordered:
                 - queryRefreshTime: ''
-                - method: ''
-                - operationId: ''
+                - method: get
+                - operationId: nearestRoads
                 - lastReceivedFromResourceAt: null
                 - queryDisabledMessage: ''
                 - servedFromCache: false
@@ -22,11 +22,11 @@ appTemplate:
                 - offlineUserQueryInputs: ''
                 - successMessage: ''
                 - queryDisabled: ''
-                - path: ''
+                - path: /v1/nearestRoads
                 - playgroundQuerySaveId: latest
                 - workflowParams: null
                 - resourceNameOverride: ''
-                - runWhenModelUpdates: false
+                - runWhenModelUpdates: true
                 - autoPaginate: false
                 - workflowRunId: null
                 - showFailureToaster: true
@@ -37,7 +37,7 @@ appTemplate:
                 - workflowRunBodyType: raw
                 - privateParams: []
                 - runWhenPageLoadsDelay: ''
-                - parameters: ''
+                - parameters: '{"points":"asdf"}'
                 - data: null
                 - specPathOverride: ''
                 - importedQueryInputs:
@@ -77,7 +77,7 @@ appTemplate:
                     ordered: []
                 - enableTransformer: false
                 - showUpdateSetValueDynamicallyToggle: true
-                - parameterDynamicStates: ''
+                - parameterDynamicStates: '{"points":false}'
                 - runWhenPageLoads: false
                 - transformer: |-
                     // Query results are available as the `data` variable
