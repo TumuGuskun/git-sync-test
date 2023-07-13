@@ -96,4 +96,322 @@ appTemplate:
                 - updateSetValueDynamically: false
                 - notificationDuration: ''
             createdAt: 2023-07-11T21:17:45.430Z
+      - table1:
+          pluginTemplate:
+            id: table1
+            type: widget
+            subtype: TableWidget2
+            template:
+              ordered:
+                - selectedRowKey: null
+                - _nextAfterCursor: ''
+                - _columnBackgroundColor:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _defaultSort: null
+                - _clearChangesetOnSave: true
+                - heightType: fixed
+                - disableEdits: false
+                - _rowHeight: small
+                - _columnIds:
+                    - 9af83
+                    - 7e1e4
+                    - '21814'
+                    - a7167
+                - _isSaving: false
+                - _actionIds: []
+                - _clearChangeset: false
+                - caseSensitiveFiltering: false
+                - _limitOffsetRowCount: null
+                - selectedSourceRow: null
+                - _dynamicColumnsEnabled: false
+                - disableSave: false
+                - _columnEditableOptions:
+                    ordered:
+                      - 9af83:
+                          ordered: []
+                      - 7e1e4:
+                          ordered: []
+                      - '21814':
+                          ordered: []
+                      - a7167:
+                          ordered: []
+                - _toolbarPosition: bottom
+                - _groupByColumns: []
+                - _toolbarButtonLabel:
+                    ordered:
+                      - 1a: Filter
+                      - 3c: Download
+                      - 4d: Refresh
+                - _nextBeforeCursor: ''
+                - _persistRowSelection: false
+                - _toolbarButtonIcon:
+                    ordered:
+                      - 1a: bold/interface-text-formatting-filter-2
+                      - 3c: bold/interface-download-button-2
+                      - 4d: bold/interface-arrows-round-left
+                - changesetArray:
+                    array: []
+                - _toolbarButtonType:
+                    ordered:
+                      - 1a: filter
+                      - 3c: custom
+                      - 4d: custom
+                - _columnStatusIndicator:
+                    ordered:
+                      - 9af83:
+                          ordered: []
+                      - 7e1e4:
+                          ordered: []
+                      - '21814':
+                          ordered: []
+                      - a7167:
+                          ordered: []
+                - _columnOptionList:
+                    ordered:
+                      - 9af83:
+                          ordered: []
+                      - 7e1e4:
+                          ordered: []
+                      - '21814':
+                          ordered: []
+                      - a7167:
+                          ordered: []
+                - _columnValueOverride:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _showBorder: true
+                - _templatePageSize: null
+                - _dynamicColumnProperties:
+                    ordered: []
+                - _showHeader: true
+                - _currentPage: 0
+                - _columnKey:
+                    ordered:
+                      - 9af83: '@type'
+                      - 7e1e4: reason
+                      - '21814': domain
+                      - a7167: metadata
+                - hidden: false
+                - _toolbarButtonIds:
+                    - 1a
+                    - 3c
+                    - 4d
+                - data: '{{ query1.data.data.error.details }}'
+                - _cellSelection: none
+                - _serverPaginated: false
+                - _linkedFilterId: null
+                - searchMode: fuzzy
+                - _columnCellTooltip:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _columnFormat:
+                    ordered:
+                      - 9af83: link
+                      - 7e1e4: string
+                      - '21814': link
+                      - a7167: string
+                - _cursorCache:
+                    object: {}
+                - _calculatedPageSize: null
+                - _primaryKeyColumnId: ''
+                - selectedDataIndex: null
+                - _columnAlignment:
+                    ordered:
+                      - 9af83: left
+                      - 7e1e4: left
+                      - '21814': left
+                      - a7167: left
+                - _actionIcon:
+                    ordered: []
+                - _columnTooltip:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _columnIcon:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _columnCellTooltipMode:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _pageSize: null
+                - showInEditor: false
+                - selectedSourceRows:
+                    array: []
+                - _columnSortDisabled:
+                    ordered:
+                      - 9af83: false
+                      - 7e1e4: false
+                      - '21814': false
+                      - a7167: false
+                - filterStack: null
+                - changesetObject: null
+                - _actionDisabled:
+                    ordered: []
+                - _columnReferenceId:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _dynamicColumnSource:
+                    array: []
+                - _rowSelection: single
+                - _columnCaption:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _dynamicColumnFormatOptions:
+                    ordered: []
+                - _dynamicRowHeights: false
+                - _columnFormatOptions:
+                    ordered:
+                      - 9af83:
+                          ordered:
+                            - showUnderline: hover
+                      - 7e1e4:
+                          ordered: []
+                      - '21814':
+                          ordered:
+                            - showUnderline: hover
+                      - a7167:
+                          ordered: []
+                - _changeset: null
+                - _afterCursor: ''
+                - selectedRowKeys:
+                    array: []
+                - _beforeCursor: ''
+                - searchTerm: ''
+                - selectedRows:
+                    array: []
+                - _disabledVirtualization: false
+                - _showColumnBorders: false
+                - _columnStatusIndicatorOptions:
+                    ordered:
+                      - 9af83:
+                          ordered: []
+                      - 7e1e4:
+                          ordered: []
+                      - '21814':
+                          ordered: []
+                      - a7167:
+                          ordered: []
+                - _columnSize:
+                    ordered:
+                      - 9af83: 100
+                      - 7e1e4: 100
+                      - '21814': 100
+                      - a7167: 100
+                - _serverPaginationType: limitOffsetBased
+                - _showFooter: true
+                - _groupedColumnConfig:
+                    ordered: []
+                - _virtualizeStartIndex: 0
+                - _toolbarButtonHidden:
+                    ordered:
+                      - 1a: ''
+                      - 3c: ''
+                      - 4d: ''
+                - _defaultFilters:
+                    ordered: []
+                - events:
+                    - ordered:
+                        - type: widget
+                        - waitMs: '0'
+                        - waitType: debounce
+                        - event: clickToolbar
+                        - method: exportData
+                        - pluginId: table1
+                        - targetId: 3c
+                    - ordered:
+                        - type: widget
+                        - waitMs: '0'
+                        - waitType: debounce
+                        - event: clickToolbar
+                        - method: refresh
+                        - pluginId: table1
+                        - targetId: 4d
+                - _columnEditable:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - pagination: null
+                - selectedDataIndexes:
+                    array: []
+                - sortArray:
+                    array: []
+                - _selectedCell: null
+                - overflowType: scroll
+                - selectedCell: null
+                - _defaultSelectedRow:
+                    ordered:
+                      - mode: index
+                      - indexType: display
+                      - index: 0
+                - _hasNextPage: false
+                - _includeRowInChangesetArray: false
+                - _columnPosition:
+                    ordered:
+                      - 9af83: center
+                      - 7e1e4: center
+                      - '21814': center
+                      - a7167: center
+                - _enableSaveActions: true
+                - _columnPlaceholder:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: Enter value
+                      - '21814': ''
+                      - a7167: Enter value
+                - _defaultFilterOperator: and
+                - _actionLabel:
+                    ordered: []
+                - _virtualizeEndIndex: 0
+                - selectedRow: null
+                - _actionHidden:
+                    ordered: []
+                - maintainSpaceWhenHidden: false
+                - _columnHidden:
+                    ordered:
+                      - 9af83: ''
+                      - 7e1e4: ''
+                      - '21814': ''
+                      - a7167: ''
+                - _columnLabel:
+                    ordered:
+                      - 9af83: Type
+                      - 7e1e4: Reason
+                      - '21814': Domain
+                      - a7167: Metadata
+                - _showToolbar: true
+            style:
+              ordered: []
+            position2:
+              position2:
+                row: 2.4
+                col: 1
+                height: 8
+                width: 8
+            createdAt: 2023-07-13T18:33:31.568Z
   version: 3.4.0
