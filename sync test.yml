@@ -1025,6 +1025,107 @@ appTemplate:
                 height: 8
                 width: 8
             createdAt: 2023-07-17T22:29:51.906Z
+      - $main:
+          pluginTemplate:
+            id: $main
+            type: frame
+            subtype: Frame
+            template:
+              ordered:
+                - type: main
+                - sticky: null
+                - isHiddenOnDesktop: false
+                - isHiddenOnMobile: false
+            style:
+              ordered: []
+            createdAt: 2023-07-17T22:29:51.930Z
+      - tabbedContainer1:
+          pluginTemplate:
+            id: tabbedContainer1
+            type: widget
+            subtype: ContainerWidget2
+            template:
+              ordered:
+                - _disabledByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - heightType: auto
+                - currentViewKey: '{{ self.viewKeys[0] }}'
+                - iconByIndex:
+                    array: []
+                - clickable: false
+                - _iconByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - marginType: normal
+                - hidden: false
+                - showHeader: true
+                - hoistFetching: false
+                - paddingType: normal
+                - views:
+                    array: []
+                - showInEditor: false
+                - tooltipText: ''
+                - hiddenByIndex:
+                    array: []
+                - _hiddenByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - currentViewIndex: null
+                - _hasMigratedNestedItems: true
+                - transition: none
+                - itemMode: static
+                - _tooltipByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - tooltipByIndex:
+                    array: []
+                - showFooter: false
+                - _viewKeys:
+                    - View 1
+                    - View 2
+                    - View 3
+                - events:
+                    ordered: []
+                - _ids:
+                    - 9707d
+                    - 0cda8
+                    - c207c
+                - viewKeys:
+                    array: []
+                - iconPositionByIndex:
+                    array: []
+                - _iconPositionByIndex:
+                    - ''
+                    - ''
+                    - ''
+                - hovered: false
+                - loading: false
+                - overflowType: scroll
+                - disabled: false
+                - _labels:
+                    - ''
+                    - ''
+                    - ''
+                - disabledByIndex:
+                    array: []
+                - maintainSpaceWhenHidden: false
+                - showBody: true
+                - labels:
+                    array: []
+            style:
+              ordered: []
+            position2:
+              position2:
+                row: 12.2
+                col: 3
+                height: 0.2
+                width: 6
+            createdAt: 2023-07-17T22:29:59.903Z
   experimentalPerfFeatures:
     object:
       serverDepGraphEnabled: false
