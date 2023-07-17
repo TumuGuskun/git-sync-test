@@ -1121,8 +1121,8 @@ appTemplate:
               ordered: []
             position2:
               position2:
-                row: 12.2
-                col: 3
+                row: 11.399999999999999
+                col: 1
                 height: 0.2
                 width: 6
             createdAt: 2023-07-17T22:29:59.903Z
